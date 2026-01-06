@@ -1,9 +1,4 @@
-variable "common_tags"{
-   default = {
-      project = "roboshop"
-      terraform = "true"
-   }
-}
+
 variable "project"{
    default = "roboshop"
 }
@@ -18,7 +13,7 @@ variable "ami_id" {
 
  variable "instance_type" {
     type = string
-    default = "t3.micro"
+
  }
 
  variable "sg_name" {
